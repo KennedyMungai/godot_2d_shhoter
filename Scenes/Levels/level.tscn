@@ -4,7 +4,7 @@
 
 [node name="Level" type="Node2D"]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="DummySprite" type="Sprite2D" parent="."]
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
+[node name="CarSprite" type="Sprite2D" parent="."]
 texture = ExtResource("1_f8ne0")
