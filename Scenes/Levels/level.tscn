@@ -1,5 +1,10 @@
-[gd_scene format=3 uid="uid://cekjen3ylrsc0"]
+[gd_scene load_steps=2 format=3 uid="uid://cekjen3ylrsc0"]
+
+[ext_resource type="Texture2D" uid="uid://1rteoe1fcy31" path="res://graphics/car/main.png" id="1_f8ne0"]
 
 [node name="Level" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+texture = ExtResource("1_f8ne0")
