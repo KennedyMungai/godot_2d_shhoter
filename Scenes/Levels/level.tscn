@@ -12,5 +12,5 @@ texture = ExtResource("1_uqtbb")
 [node name="CarSprite" type="Sprite2D" parent="DummySprite"]
 texture = ExtResource("1_f8ne0")
 
-[node name="Player" parent="DummySprite/CarSprite" instance=ExtResource("3_21wh1")]
+[node name="Player" parent="." instance=ExtResource("3_21wh1")]
 position = Vector2(-362, 132)
